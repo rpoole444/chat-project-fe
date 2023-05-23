@@ -5,7 +5,10 @@ import 'react-chat-widget/lib/styles.css';
 
 function App() {
   const [chatClient, setChatClient] = useState(null);
+
   const apiKeys = process.env.REACT_APP_API_KEY
+
+  
   useEffect(() => {
     const initChat = async () => {
       const userId = '1';
@@ -15,7 +18,7 @@ function App() {
       const { token } = await response.json();
 
       const client = new StreamChat(apiKey);
-      await client.setUser({ id: userId }, token);
+      await client.connectUser({ id: userId }, token);
 
       const channel = client.channel('messaging', 'channel-1');
       await channel.watch();
@@ -30,7 +33,6 @@ function App() {
         addResponseMessage(event.message.text);
       }
     }
-
     initChat();
   }, []);
 

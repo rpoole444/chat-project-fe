@@ -18,18 +18,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Setup
 
 1. clone 2 copies of  FE Repo [here](https://github.com/rpoole444/chat-project-fe)
-  - “user 1"
-  - "user 2" (for testing purposes)
+    - “user 1"
+    - "user 2" (for testing purposes)
 2. npm i in each
 3. obtain api key
 4. set said key in your .env file
 5. npm start
-  - first user
-  - you should see a little message bubble in the bottom right @ local3000
+    - first user
+    - you should see a little message bubble in the bottom right @ local3000
 6. IMPORTANT: Before you start the second FE up, you’ll need to run these commands and open it up on a incognito window.
-  - cd into the second user file
-  - npm run build
-  - npx serve -s build -l 5000
+    - cd into the second user file
+    - npm run build
+    - npx serve -s build -l 5000
 7. Navigate in a normal window to your local 3000,
 8. In an incognito go to the given local 5000
 9. you should then be able to chat between the two windows on your machine.

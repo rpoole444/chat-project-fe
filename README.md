@@ -7,10 +7,7 @@ My lil project to get a chat working between separate users
   - [Setup](#setup)
   - [Technologies](#technologies)
   - [Project Spec](#project-spec)
-  - [Abstract](#abstract)
   - [Learning Goals](#learning-goals)
-  - [Preview](#preview)
-  - [Wins + Challenges](#wins-and-challenges)
   - [Authors](#Authors)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

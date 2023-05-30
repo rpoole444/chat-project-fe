@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+
+# GetStream.io Project(Chat)
+
+[Open the app](https://ceaseless-cinema.vercel.app/)
+
+My lil project to get a chat working between separate users
+
+## Table of Contents
+  - [Setup](#setup)
+  - [Technologies](#technologies)
+  - [Project Spec](#project-spec)
+  - [Abstract](#abstract)
+  - [Learning Goals](#learning-goals)
+  - [Preview](#preview)
+  - [Wins + Challenges](#wins-and-challenges)
+  - [Authors](#Authors)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Setup
 
-In the project directory, you can run:
+1. clone 2 copies of  FE Repo [here](https://github.com/rpoole444/chat-project-fe)
+  - “user 1"
+  - "user 2" (for testing purposes)
+2. npm i in each
+3. obtain api key
+4. set said key in your .env file
+5. npm start
+    - first user
+    - you should see a little message bubble in the bottom right @ local3000
+6. IMPORTANT: Before you start the second FE up, you’ll need to run these commands and open it up on a incognito window.
+  - cd into the second user file
+  - npm run build
+ - npx serve -s build -l 5000
+7. Navigate in a normal window to your local 3000,
+8. In an incognito go to the given local 5000
+9. you should then be able to chat between the two windows on your machine.
 
-### `npm start`
+## Technologies
+  - Javascript
+  - CSS / HTML
+  - VSCode
+  - Git Version Control / GitHub
+  - Webpack node package
+  - React 
+  - Get Stream io
+  - Google Chrome or Web Browser of User's Choice
+  - Mac OS Terminal/Command Line
+  - Node.js 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Learning Goals
 
-### `npm test`
+- Gain competency with React fundamentals
+- Learn Chat function in Get Stream io
+- Practice refactoring
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Authors
 
-### `npm run build`
+<table>
+   <tr>
+      <td> Reid Poole <a href="https://github.com/rpoole444">GH</td>
+    </tr>
+ <td><img src="https://avatars.githubusercontent.com/u/111818942?v=4" alt="Reid Poole"
+ width="150" height="auto" /></td>
+</table>
+  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
